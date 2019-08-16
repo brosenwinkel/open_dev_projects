@@ -22,8 +22,8 @@ for x in files:
 ###########################################################
 
 
-# path = 'namesbystate/'
-path = 'names/'
+# path = 'data/namesbystate/'
+path = 'data/names/'
 
 # names_file = open("namesbystate.txt","w+")
 names_file = open("names.txt","w+")
