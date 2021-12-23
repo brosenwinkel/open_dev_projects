@@ -28,9 +28,7 @@ df = df[['decade','name','count']]
 
 
 
-df_total = df.groupby(['name'])['count'].sum()
-df_total = df_total.reset_index()
-# df_total = df_total.transpose()
+
 
 
 
@@ -38,7 +36,7 @@ df_total = df_total.reset_index()
 df = df.groupby(['decade','name'])['count'].sum()
 df = df.reset_index()
 
-
+dd2 = {1,2,3,4}
 
 df_min = df.groupby(['name'])['count'].min()
 df_min = df_min.reset_index()
